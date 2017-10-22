@@ -1,24 +1,78 @@
+body {
+  background-color: #A8A7A7;
+  font-family: 'Homemade Apple', cursive;
+}
+
 .App {
-  text-align: center;
+    text-align: center;
+    background-color: #E8175D;
+    float: left;
+    margin: 0 5%;
+    width: 88%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(54, 54, 54);
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.language {
+    background-color: #363636;
+    border-radius: 91px;
+    width: 40%;
+    max-width: 40%;
+    max-height: 40%;
+    margin: 1% 1% 4% 7.5%;
+    padding-bottom: 4%;
+    float: left;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #a8a7a7;
+  }
+
+.Con {
+    background-color: #363636;
+    border-radius: 91px;
+    width: 39%;
+    max-width: 40%;
+    max-height: 40%;
+    margin: 20px 5%;
+    /* padding: 2% 0% 0 0%; */
+    padding-top: 4%;
+    padding-bottom: 1%;
+    float: left;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #a8a7a7;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.Con h2 {
+  height: 10%;
+  font-family: 'Homemade Apple', cursive;
+  margin: 6%;
 }
-
-.App-intro {
-  font-size: large;
+.App h3 {
+  padding: 2% 49% 1% 5%;
+  font-family: 'Homemade Apple', cursive;
 }
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+button, select {
+    text-transform: none;
+    background: #e8175d;
+    padding: 0 1% 0% 1%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(168, 167, 167);
+}
+.language select {
+  margin: 0 9% 0% 4%;
+}
+.wordsLeft{
+ font-family: 'Homemade Apple', cursive; 
+ padding-bottom: 4%;
+}
+.wordsMiddle{
+ font-family: 'Homemade Apple', cursive; 
+ padding-bottom: 2%;
+}
+.wordsRight{
+ font-family: 'Homemade Apple', cursive; 
+ padding-bottom: 1%;
 }
